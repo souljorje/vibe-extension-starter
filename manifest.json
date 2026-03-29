@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Vibe Extension Starter",
+  "version": "0.1.0",
+  "description": "A tiny browser extension starter with a popup and background service worker.",
+  "action": {
+    "default_title": "Open starter popup",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
